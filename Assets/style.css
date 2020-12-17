@@ -1,10 +1,10 @@
 body {
-    background-color: #f8f8f8;
-    margin-top: -30px;
+    background-color: #c7c4c4;
 }
 
 h1 {
     font-family: 'Spartan', sans-serif;
+    color: #facfad;
 }
 
 .navbar-custom {
@@ -22,11 +22,16 @@ h1 {
     font-family: 'Spartan', sans-serif;
 }
 
-.profile {
+.profile, .contact-form {
     margin-top: 30px;
 }
 
 .about-me {
     color: #facfad;
     font-family: 'Spartan', sans-serif;
+    margin-top: 10px;
+}
+
+.btn {
+    margin-top: 5px;
 }
