@@ -37,6 +37,17 @@ h1 {
     font-family: 'Spartan', sans-serif;
     margin-top: 10px;
 }
+.contact-info {
+    color: #ffffff;
+    list-style: none;
+    font-family: 'Spartan', sans-serif;
+}
+/* Social Media links */
+.social {
+    color: #ffffff;
+    margin-left: 10px;
+    padding-left: 20px;
+}
 /* Color for buttons */
 .btn, button {
     margin-top: 5px;
@@ -52,4 +63,25 @@ h1 {
 .row-1 {
     padding-bottom: 20px;
 }
+/* Media Queries */
+@media screen and (max-width: 992px) {
+    
+}
 
+@media screen and (max-width: 768px) {
+    .contact-card {
+        width: 18rem;
+    }
+    body {
+        background-color: #f8f8f8;
+      }
+}
+
+@media screen and (min-width: 400px) {
+    .contact-card {
+        width: 10rem;
+    }
+    body {
+      background-color: #f8f8f8;
+    }
+  }
