@@ -7,6 +7,10 @@ body {
 p {
     color: #ffffff;
 }
+/* Coloring for card text */
+.folio-text {
+    color: #000000;
+}
 /* Coloring for heading on Portfolio and Contact pages */
 h1 {
     font-family: 'Spartan', sans-serif;
